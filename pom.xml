@@ -136,6 +136,9 @@
                     <plugin-options>
                         <jboss-fork-embedded>${plugin.fork.embedded}</jboss-fork-embedded>
                     </plugin-options>
+                    <cloud>
+                        <type>openshift</type>
+                    </cloud>
                 </configuration>
                 <executions>
                     <execution>
