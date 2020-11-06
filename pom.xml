@@ -5,7 +5,6 @@
     <groupId>org.wildfly.tommaso-borgato</groupId>
     <artifactId>bootable-jar</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>war</packaging>
 
     <name>WildFly Bootable JAR - JAX-RS Example</name>
     <description>An example of how to use JAX-RS resources</description>
@@ -137,6 +136,7 @@
                     <plugin-options>
                         <jboss-fork-embedded>${plugin.fork.embedded}</jboss-fork-embedded>
                     </plugin-options>
+                    <cloud />
                 </configuration>
                 <executions>
                     <execution>
