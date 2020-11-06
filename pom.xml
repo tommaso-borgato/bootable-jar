@@ -136,7 +136,6 @@
                     <plugin-options>
                         <jboss-fork-embedded>${plugin.fork.embedded}</jboss-fork-embedded>
                     </plugin-options>
-                    <cloud />
                 </configuration>
                 <executions>
                     <execution>
